@@ -76,5 +76,5 @@ var series = [];
 for (var i = 2; i <= 20; (i += 2)) {
     series.push(i);
 }
-console.log("Even: ", series.join("k, "));
+console.log("Even: ", series.join("k, ") + "k");
 
